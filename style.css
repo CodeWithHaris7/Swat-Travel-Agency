@@ -160,5 +160,57 @@
 	border-bottom: 4px solid #ffffff;
 	transition: 0.4s;
   }
+   /* ************************ */
+  /* Default styles for all screen sizes */
+
+/* Styles for screens up to 768 pixels wide */
+@media (max-width: 768px) {
+	/* Adjust styles for smaller screens */
+	body{
+		/* font-size: 16px; */
+		.heading{
+			font-size: 20px;
+		
+		}
+		.heading a{
+			text-decoration: none;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 45px;
+    padding: 5px 20px;
+	background-color: #ff0000;
+		}
+		.heading h1{
+			font-size:30px;
+			color: #ff0000;
+		}
+		.navbar .logo{
+			position:sticky;
+			font-size: 8px;
+		}
+		.navbar .menu ul a{
+			/* position:sticky; */
+			font-size: 15px;	
+			padding: 1px 10px;
+		}
+	}
+  }
+  
+  /* Styles for screens between 769 and 992 pixels wide */
+  @media (min-width: 769px) and (max-width: 992px) {
+	/* Adjust styles for medium-sized screens */
+  }
+  
+  /* Styles for screens between 993 and 1200 pixels wide */
+  @media (min-width: 993px) and (max-width: 1200px) {
+	/* Adjust styles for larger screens */
+  }
+  
+  /* Styles for screens 1201 pixels and wider */
+  @media (min-width: 1201px) {
+	/* Adjust styles for extra-large screens */
+  }
+
   
   
