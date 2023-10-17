@@ -1,0 +1,164 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+
+}
+.navbar{
+	width: 100%;
+	height: 80px;
+	background-color: rgb(253, 253, 253);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #000;
+}
+
+
+/* Apply a border to the .navbar */
+.navbar {
+    border: 1px solid #000; /* 1px solid black border */
+    padding: 10px; /* Add some padding to give space around the content */
+}
+
+/* Style the list items (optional) */
+.navbar ul {
+    list-style: none; /* Remove the default list bullets */
+    padding: 0;
+}
+
+/* Style the navigation links (optional) */
+.navbar li {
+    display: inline;
+    margin-right: 20px; /* Add some spacing between links */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ff0505; /* Link color */
+}
+/* to here */
+.menu ul{
+	display: flex;
+	align-items: center;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid #000;
+	transition: 0.4s;
+} 
+.signup a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 12px 30px;
+	border: 2px solid #ff0000;
+}
+.signup a:hover{
+	background-color: red;
+	transition: 0.6s;
+}
+.body{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(img1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.heading{
+	width: 30%;
+	text-align: center;
+	color: #fff;
+}
+.heading h1{
+	font-size: 40px;
+}
+.heading a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 45px;
+	padding: 14px 50px;
+	background-color: #fff;
+}
+.heading a:hover{
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+.tours{
+	width: 50%;
+
+	display: flex;
+	justify-content: space-around;
+    /* justify-content:space-evenly; */
+}
+/* .places{
+	display: inline;
+	text-align: center;
+	border-radius: 12px;
+}
+.places h2{
+	color: red;
+	font-size: 35px;
+	letter-spacing: 3px;
+	border-radius: 1px;
+	padding: 30px 30px;
+	background-color: #000;
+}
+.places a{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 12px;
+	padding: 12px 30px;
+	background-color: #fff;
+}
+*/
+.places a:hover{
+	background-color: #ff0000;
+	letter-spacing: 3px;
+	transition: 0.6s;
+	color: rgb(255, 255, 255);
+} 
+.footer {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: center; /* Center-align the content */
+	align-items: center;
+	background-color: rgb(0, 0, 0);
+	padding: 0 20px;
+	border-top: 2px solid #000;
+  }
+  
+  .footer a {
+	text-decoration: none;
+	color: #e7e6e6;
+	font-size: 18px;
+	font-weight:inherit;
+	margin: 0 20px; /* Add margin to create space between links */
+}
+
+.footer a:hover {
+	text-decoration:wavy;
+	transition: 0.4s;
+	border-bottom: 4px solid #ffffff;
+	transition: 0.4s;
+  }
+  
+  

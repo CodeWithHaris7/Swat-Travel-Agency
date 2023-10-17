@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <style>
+        .places {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border-radius: 12px;
+            margin: 20px;
+        }
+
+        .places h2 {
+            color: rgb(255, 255, 255);
+            font-size: 45px;
+            letter-spacing: 3px;
+            border-radius: 100px;
+            background-color: #000;
+            padding: 15px 30px;
+        }
+
+        .places p {
+            font-size: 18px;
+            color: #555;
+            max-width: 600px;
+            margin: 20px 0;
+        }
+
+        .places img {
+            width: 400px;
+            height: 350px;
+            border-radius: 12px;
+        }
+
+        .places a {
+            text-decoration: none;
+            color: rgb(26, 23, 23);
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 12px;
+            padding: 15px 30px;
+            background-color: #f1ed09;
+            margin-top: 20px;
+        }
+        
+
+        /* Inline styles for the new image container */
+        .image-container {
+            display: flex;
+            justify-content: space-between; /* Horizontal layout with space between images */
+            margin-top: 20px; /* Add space between images and the button */
+        }
+
+        .image-container img {
+            width: 350px; /* Set the image width */
+            height: 300px; /* Set the image height */
+            border-radius: 12px;
+            margin: 0 10px; /* Add space between images */
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <h1><a href="index.html">Travel Agency</a></h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="greece.html">Greece</a></li>
+                <li><a href="japan.html">Japan</a></li>
+                <li><a href="/contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="places">
+        <h2>Japan</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula finibus libero, sit amet laoreet quam
+            pellentesque ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+            Nulla facilisi. Sed a urna a risus congue varius. Vivamus malesuada justo eget odio auctor, non ullamcorper
+            ante eleifend. Sed vel felis nec tellus bibendum eleifend.
+        </p>
+        <div class="image-container">
+            <img src="/japan_1.jpg" alt="Image 1">
+            <img src="/japan_2.jpg" alt="Image 2">
+            <img src="/japan_3.jpg" alt="Image 3">
+        </div>
+        <a href="#">Book Now 15% OFF</a>
+    </section>
+    <div class="footer">
+		<a href="https://www.facebook.com">Facebook</a>
+		<a href="https://www.twitter.com">Twitter</a>
+		<a href="https://www.instagram.com">Instagram</a>
+		<a href="https://www.linkedin.com">LinkedIn</a>
+	</div>
+</body>
+</html>
